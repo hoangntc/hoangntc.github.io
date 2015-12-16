@@ -1,7 +1,106 @@
+/* ---------------------------
+   Fonts & Page
+   ------------------------ */
+@import "http://fonts.googleapis.com/css?family=Roboto:500,100";
+@import "http://weloveiconfonts.com/api/?family=entypo";
+
+/* Entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;}
+
+/* Page */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;}
+
 body {
-    margin: 60px auto;
-    width: 70%;
+  background-color: #F8F8F8;
 }
+
+/* ---------------------------
+   Heart Beat Specific
+   ------------------------ */
+#wrap {
+  padding-top: 120px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 58px;}
+
+#wrap span.text {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 58px;
+  color: #99c2ff;
+  padding: 0 10px;}
+  
+#wrap span.text a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;}
+
+#wrap .heart-wrap {
+  display: inline-block;
+  position: relative;
+  width: 60px;
+  height: 60px;}
+
+#wrap .entypo-heart:before {
+  display: block;
+  color: #ffb3cb; 
+  font-size: 46px;
+  speak: none; /* Prevent screen readers */
+  -webkit-font-smoothing: antialiased; /* Webkit font tweaking */
+  
+  /* Boost hardware acceleration where possible */
+  -webkit-transform: scale(1) translate3d(0px,0px,0px);
+     -moz-transform: scale(1) translate3d(0px,0px,0px);
+       -o-transform: scale(1) translate3d(0px,0px,0px);
+          transform: scale(1) translate3d(0px,0px,0px);
+ 
+  /* Cross browser animation */
+  -webkit-animation: beatz 2s infinite; /* Chrome, Safari 5+ */
+     -moz-animation: beatz 2s infinite; /* Firefox 5-15 */
+       -o-animation: beatz 2s infinite; /* Opera 12.00 */
+          animation: beatz 2s infinite; /* Chrome, Firefox 16+, IE 10+, Opera 12.10+ */}
+
+  /* Heart beat animation*/
+  @-webkit-keyframes beatz {
+    0%   { font-size: 50px;}
+    2%   { font-size: 53px;}
+    4%   { font-size: 50px;}
+    6%   { font-size: 53px;}
+    8%   { font-size: 50px;}
+    100% { font-size: 50px;}
+  }
+  @-moz-keyframes beatz {
+    0%   { font-size: 50px;}
+    2%   { font-size: 53px;}
+    4%   { font-size: 50px;}
+    6%   { font-size: 53px;}
+    8%   { font-size: 50px;}
+    100% { font-size: 50px;}
+  }
+  @-o-keyframes beatz {
+    0%   { font-size: 50px;}
+    2%   { font-size: 53px;}
+    4%   { font-size: 50px;}
+    6%   { font-size: 53px;}
+    8%   { font-size: 50px;}
+    100% { font-size: 50px;}
+  }
+  @keyframes beatz {
+    0%   { font-size: 50px;}
+    2%   { font-size: 53px;}
+    4%   { font-size: 50px;}
+    6%   { font-size: 53px;}
+    8%   { font-size: 50px;}
+    100% { font-size: 50px;}
+  }
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
