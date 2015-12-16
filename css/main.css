@@ -140,3 +140,49 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+	
+If the images are different sizes you want to make sure they cover the div as well as being centered within it. Adding 50% border-radius will do the trick also.
+
+http://jsfiddle.net/k71v1vL3/1/ - Example
+
+<div class="user one">
+</div>
+
+<div class="user two">
+</div>
+
+<div class="user three">
+</div>
+.user
+{
+    width: 200px; // These are your circle dimensions
+    height: 200px;
+    border-radius: 50%;
+    background-repeat: no-repeat; 
+    background-position: center center; // Center image in the circle
+    background-size: cover; // Make sure it covers the circle, as there is no bg repeat
+}
+
+
+.user
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+.user
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+
+.one
+{
+    background-image: url('http://demo.patternlab.io/images/fpo_avatar.png');
+}
