@@ -11,11 +11,11 @@
 /* Page */
 html, body {
   margin: auto;
-  padding: 0;
+  padding: auto;
   height: 100%;}
 
 body {
-  background-color: #F8F8F8;
+  background-color: #ffffff;
 }
 
 /* ---------------------------
