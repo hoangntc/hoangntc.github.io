@@ -178,8 +178,7 @@ http://jsfiddle.net/k71v1vL3/1/ - Example
     height: 200px;
     border-radius: 50%;
     background-repeat: no-repeat; 
-    background-position: center;
-    background-align: center;
+    background-position: 50% 50%;
 }
 
 
