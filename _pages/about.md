@@ -2,8 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD in Computer Science, York University, Canada
-supervisor: Prof. Michael S. Brown
+subtitle: Data Scientist
+supervisor: Prof. Ebrahim Bagheri
 
 profile:
   align: right
